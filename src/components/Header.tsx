@@ -31,9 +31,9 @@ const Header = () => {
       name: 'CORPORATE SERVICES', 
       href: '#corporate',
       submenu: [
-        { name: 'BBBEE Consulting Services', href: '#bbbee' },
-        { name: 'Skills Development', href: '#skills-dev' },
-        { name: 'Learner Management', href: '#learner-mgmt' },
+        { name: 'BBBEE Consulting Services', href: '/bbbee-consulting' },
+        { name: 'Skills Development', href: '/skills-development' },
+        { name: 'Learner Management', href: '/learner-management' },
         { name: 'SETA Facilitation Services', href: '#seta' },
         { name: 'WSP/ATR/PIVOTAL PLAN', href: '#wsp' }
       ]

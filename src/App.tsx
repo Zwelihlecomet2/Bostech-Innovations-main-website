@@ -7,6 +7,9 @@ import AboutPage from './pages/AboutPage';
 import SoftSkillsPage from './pages/SoftSkillsPage';
 import ITCoursesPage from './pages/ITCoursesPage';
 import LearnershipPage from './pages/LearnershipPage';
+import BBBEEConsultingPage from './pages/BBBEEConsultingPage';
+import SkillsDevelopmentPage from './pages/SkillsDevelopmentPage';
+import LearnerManagementPage from './pages/LearnerManagementPage';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Route path="/soft-skills" element={<SoftSkillsPage />} />
         <Route path="/it-courses" element={<ITCoursesPage />} />
         <Route path="/learnerships" element={<LearnershipPage />} />
+        <Route path="/bbbee-consulting" element={<BBBEEConsultingPage />} />
+        <Route path="/skills-development" element={<SkillsDevelopmentPage />} />
+        <Route path="/learner-management" element={<LearnerManagementPage />} />
       </Routes>
       <Footer />
     </div>

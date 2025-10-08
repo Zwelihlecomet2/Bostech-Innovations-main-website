@@ -84,6 +84,34 @@ const LearnerManagementPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Enquire Now Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Enquire Now</h2>
+          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+            Get in touch with us today to chat about how we can assist your business. Call us at <a href="tel:0117595940" className="text-[#2d2e83] font-semibold hover:underline">011 759 5940</a> or submit your info in the enquiry form below.
+          </p>
+          <form className="space-y-6">
+            <div className="grid md:grid-cols-2 gap-4">
+              <input type="text" placeholder="First Name" className="border border-gray-300 rounded px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-[#f79630]" />
+              <input type="text" placeholder="Surname" className="border border-gray-300 rounded px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-[#f79630]" />
+            </div>
+            <div className="grid md:grid-cols-2 gap-4">
+              <input type="text" placeholder="Contact Number" className="border border-gray-300 rounded px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-[#f79630]" />
+              <input type="email" placeholder="Email Address" className="border border-gray-300 rounded px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-[#f79630]" />
+            </div>
+            <div className="grid md:grid-cols-2 gap-4">
+              <input type="text" placeholder="Company Name" className="border border-gray-300 rounded px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-[#f79630]" />
+              <input type="text" placeholder="Position at Company" className="border border-gray-300 rounded px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-[#f79630]" />
+            </div>
+            <textarea placeholder="Message" rows={4} className="border border-gray-300 rounded px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-[#f79630] resize-none" />
+            <div className="flex justify-center pt-2">
+              <button type="submit" className="bg-[#2d2e83] text-white font-bold px-12 py-3 rounded transition-colors hover:bg-[#23245c] focus:outline-none focus:ring-2 focus:ring-[#f79630]">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </div>
   );
 };

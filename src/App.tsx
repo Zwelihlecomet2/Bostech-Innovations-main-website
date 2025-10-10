@@ -10,6 +10,8 @@ import LearnershipPage from './pages/LearnershipPage';
 import BBBEEConsultingPage from './pages/BBBEEConsultingPage';
 import SkillsDevelopmentPage from './pages/SkillsDevelopmentPage';
 import LearnerManagementPage from './pages/LearnerManagementPage';
+import SETAFacilitationPage from './pages/SetaFacilitation';
+import PivotalPlanPage from './pages/PivotalPlan';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path="/bbbee-consulting" element={<BBBEEConsultingPage />} />
         <Route path="/skills-development" element={<SkillsDevelopmentPage />} />
         <Route path="/learner-management" element={<LearnerManagementPage />} />
+        <Route path="/seta-facilitation" element={<SETAFacilitationPage />} />
+        <Route path="/pivotal-plan" element={<PivotalPlanPage />} />
       </Routes>
       <Footer />
     </div>

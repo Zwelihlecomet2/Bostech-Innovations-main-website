@@ -34,8 +34,8 @@ const Header = () => {
         { name: 'BBBEE Consulting Services', href: '/bbbee-consulting' },
         { name: 'Skills Development', href: '/skills-development' },
         { name: 'Learner Management', href: '/learner-management' },
-        { name: 'SETA Facilitation Services', href: '#seta' },
-        { name: 'WSP/ATR/PIVOTAL PLAN', href: '#wsp' }
+        { name: 'SETA Facilitation Services', href: '/seta-facilitation' },
+        { name: 'WSP/ATR/PIVOTAL PLAN', href: '/pivotal-plan' }
       ]
     },
     { name: '4IR4HER', href: '#4ir4her' },

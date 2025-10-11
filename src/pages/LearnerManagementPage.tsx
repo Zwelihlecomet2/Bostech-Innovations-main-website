@@ -70,9 +70,9 @@ const LearnerManagementPage = () => {
             <p className="text-gray-700 text-base md:text-lg mb-6">
               Together we empower young dynamic people to become the technology leaders of tomorrow.
             </p>
-            <button className="bg-[#f79630] text-white font-bold px-8 py-3 rounded transition-colors hover:bg-[#e6861c] focus:outline-none focus:ring-2 focus:ring-[#f79630]">
+            <a href='#learner-management-booking' className="bg-[#f79630] text-white font-bold px-8 py-3 rounded transition-colors hover:bg-[#e6861c] focus:outline-none focus:ring-2 focus:ring-[#f79630]">
               BOOK A MEETING
-            </button>
+            </a>
           </div>
           {/* Image */}
           <div className="w-full h-96 rounded-2xl overflow-hidden shadow-lg flex items-center justify-center bg-gray-100">
@@ -86,7 +86,7 @@ const LearnerManagementPage = () => {
       </section>
 
       {/* Enquire Now Section */}
-      <section className="py-20 bg-white">
+      <section id='learner-management-booking' className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Enquire Now</h2>
           <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">

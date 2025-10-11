@@ -41,7 +41,7 @@ const SkillsDevelopmentPage = () => {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-[#2d2e83] mb-2">Unlock Potential</h2>
             <p className="text-[#2d2e83] text-base md:text-lg font-semibold mb-4">
-              Enhance your workforce’s Information, Communication and Technology knowledge and improve skills through corporate short courses offered through an easy to use platform.
+              Enhance your workforce's Information, Communication and Technology knowledge and improve skills through corporate short courses offered through an easy to use platform.
             </p>
             <p className="text-[#2d2e83] text-base md:text-lg mb-2">
               At Dynamic DNA we offer a wide variety of Skills Development Solutions and help meet your Skills Development Targets.
@@ -55,9 +55,9 @@ const SkillsDevelopmentPage = () => {
             <p className="text-[#2d2e83] text-base md:text-lg mb-6">
               We also assist in all your Workplace Skills Plan and Annual Training Pivotal Plan
             </p>
-            <button className="bg-[#f79630] text-white font-bold px-8 py-3 rounded transition-colors hover:bg-[#e6861c] focus:outline-none focus:ring-2 focus:ring-[#f79630]">
+            <a href='#skills-development-enquire' className="bg-[#f79630] text-white font-bold px-8 py-3 rounded transition-colors hover:bg-[#e6861c] focus:outline-none focus:ring-2 focus:ring-[#f79630]">
               ENQUIRE NOW
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -100,7 +100,7 @@ const SkillsDevelopmentPage = () => {
       </section>
 
             {/* Enquire Now Section */}
-      <section className="py-20 bg-white">
+      <section id='skills-development-enquire' className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Enquire Now</h2>
           <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">

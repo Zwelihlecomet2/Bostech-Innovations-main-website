@@ -25,15 +25,9 @@ const SETAFacilitationPage = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#enquire"
-                className="inline-block bg-[#f79630] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e6861c] transition"
-              >
-                ENQUIRE NOW
-              </a>
-              <a
-                href="#book"
                 className="inline-block border border-white text-white px-6 py-3 rounded-lg hover:bg-white/10 transition"
               >
-                BOOK A MEETING
+                ENQUIRE NOW
               </a>
             </div>
           </div>
@@ -56,13 +50,6 @@ const SETAFacilitationPage = () => {
                 Our team has the experience and deep understanding of SETA requirements to provide high-quality, personalized service and timely delivery.
                 With our support, your SETA applications will be submitted accurately and on time, allowing you to focus on your core business operations.
               </p>
-
-              <a
-                href="#book"
-                className="inline-block bg-[#f79630] text-white px-6 py-3 rounded shadow font-semibold"
-              >
-                BOOK A MEETING
-              </a>
             </div>
 
             <div className="flex justify-center md:justify-end">

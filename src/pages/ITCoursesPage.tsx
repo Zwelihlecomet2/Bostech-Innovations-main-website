@@ -98,12 +98,12 @@ const ITCoursesPage = () => {
             
             {/* Call to Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mt-8 animate-fade-in-up animation-delay-600">
-              <button className="bg-yellow-500 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transform hover:scale-105 transition-all duration-200 shadow-lg">
+              <a href='#it-courses' className="bg-yellow-500 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transform hover:scale-105 transition-all duration-200 shadow-lg">
                 EXPLORE COURSES
-              </button>
-              <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 hover:text-black transition-all duration-200">
+              </a>
+              <a href='#contact-us-it-courses' className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 hover:text-black transition-all duration-200">
                 GET STARTED
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -257,7 +257,7 @@ const ITCoursesPage = () => {
           </div>
 
           {/* IT Courses Title Section */}
-          <div className="text-center">
+          <div id='it-courses' className="text-center">
             <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
               IT Courses
             </h2>
@@ -774,7 +774,7 @@ const ITCoursesContactForm = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div id='contact-us-it-courses' className="max-w-2xl mx-auto">
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">

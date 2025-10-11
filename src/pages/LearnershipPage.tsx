@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 // FAQ Section Component for Learnerships
 const LearnershipFAQSection = () => {
@@ -357,7 +358,7 @@ const LearnershipPage = () => {
             <blockquote className="text-2xl md:text-3xl font-light mb-6 italic">
               "Education is the most powerful weapon which you can use to change the world."
             </blockquote>
-            <cite className="text-lg font-medium">– Nelson Mandela</cite>
+            <cite className="text-lg font-medium"> - Nelson Mandela</cite>
           </div>
         </div>
       </section>
@@ -550,9 +551,9 @@ const LearnershipPage = () => {
               </p>
               
               <div className="pt-4">
-                <button className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
+                <NavLink to='/contact-us' className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
                   Learn More
-                </button>
+                </NavLink>
               </div>
             </div>
           </div>

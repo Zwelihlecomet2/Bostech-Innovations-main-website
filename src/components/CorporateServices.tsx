@@ -1,5 +1,6 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 const CorporateServices = () => {
   const features = [
@@ -101,9 +102,9 @@ const CorporateServices = () => {
             </div>
 
             <div className="pt-6">
-              <button className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
+              <NavLink to='/contact-us' className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
                 GET STARTED
-              </button>
+              </NavLink>
             </div>
           </div>
         </div>

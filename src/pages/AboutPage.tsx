@@ -1,6 +1,7 @@
 import React from 'react';
 import { Users, Target, Building, Zap, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const AboutPage = () => {
   const features = [
@@ -276,9 +277,9 @@ const AboutPage = () => {
                   <p className="text-white/90 mb-4">
                     Accredited IT & Business Courses
                   </p>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200 self-start">
+                  <NavLink to='/it-courses' className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200 self-start">
                     READ MORE
-                  </button>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -301,9 +302,9 @@ const AboutPage = () => {
                   <p className="text-white/90 mb-4">
                     Corporate Services and Skills Development
                   </p>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200 self-start">
+                  <NavLink to='/skills-development' className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200 self-start">
                     READ MORE
-                  </button>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -326,9 +327,9 @@ const AboutPage = () => {
                   <p className="text-white/90 mb-4">
                     Women Empowerment & Equality Projects
                   </p>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200 self-start">
+                  <NavLink to='/4ir4her' className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200 self-start">
                     READ MORE
-                  </button>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -391,9 +392,9 @@ const AboutPage = () => {
               </p>
 
               <div className="pt-4">
-                <button className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
+                <NavLink to='/contact-us' className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
                   LEARN MORE
-                </button>
+                </NavLink>
               </div>
             </div>
           </div>

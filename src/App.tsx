@@ -12,6 +12,8 @@ import SkillsDevelopmentPage from './pages/SkillsDevelopmentPage';
 import LearnerManagementPage from './pages/LearnerManagementPage';
 import SETAFacilitationPage from './pages/SetaFacilitation';
 import PivotalPlanPage from './pages/PivotalPlan';
+import FourIR from './pages/FourIR'
+import ContactUs from './pages/ContactPage'
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/learner-management" element={<LearnerManagementPage />} />
         <Route path="/seta-facilitation" element={<SETAFacilitationPage />} />
         <Route path="/pivotal-plan" element={<PivotalPlanPage />} />
+        <Route path="/4ir4her" element={<FourIR />} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />
     </div>

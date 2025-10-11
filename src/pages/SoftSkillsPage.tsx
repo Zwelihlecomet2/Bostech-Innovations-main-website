@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
+import { Link, NavLink } from 'react-router-dom';
 
 const SoftSkillsPage = () => {
   return (
@@ -54,12 +55,12 @@ const SoftSkillsPage = () => {
             
             {/* Call to Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mt-8 animate-fade-in-up animation-delay-400">
-              <button className="bg-[#f79630] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
+              <a href='#soft-skills-courses' className="bg-[#f79630] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
                 VIEW COURSES
-              </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-blue-900 transition-all duration-200">
+              </a>
+              <a href='#contact-us-soft-skills' className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-blue-900 transition-all duration-200">
                 LEARN MORE
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -137,9 +138,9 @@ const SoftSkillsPage = () => {
 
               {/* Enquire Button */}
               <div className="pt-6">
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg">
+                <a href='/contact-us' className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg">
                   Enquire
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -216,7 +217,7 @@ const SoftSkillsPage = () => {
       </section>
 
       {/* Soft Skill Short Courses Section */}
-      <section className="py-20 bg-white">
+      <section id='soft-skills-courses' className="py-20 bg-white">
         <div className="container mx-auto px-4">
           {/* Title */}
           <div className="text-center mb-16">
@@ -307,7 +308,7 @@ const SoftSkillsPage = () => {
       </section>
 
       {/* Soft Skills Enquiry Form Section */}
-      <section className="py-20 bg-gray-50">
+      <section id='contact-us-soft-skills' className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <ContactForm />
         </div>

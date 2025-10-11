@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Twitter, Youtube, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const socialLinks = [
@@ -12,34 +13,22 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12"> 
           {/* About Section */}
           <div className="space-y-6">
             <h4 className="text-xl font-bold text-[#f79630]">About Us</h4>
             <p className="text-gray-300 leading-relaxed">
               Dynamic DNA is an ICT training Academy accredited with the MICT SETA, providing Scarce Skills IT training through blended learning (theory and practical) to develop locally-based skilled technology professionals with a specialized focus on the 4IR specialities.
             </p>
-            <a
-              href="#about"
+            <Link to="/about"
               className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
             >
               Learn More
-            </a>
+            </Link>
           </div>
 
           {/* Partner Logos */}
           <div className="space-y-6 text-center">
-            <div className="space-y-4">
-              <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=306&h=140"
-                alt="Pearson Vue Test Centre"
-                className="mx-auto h-16 object-contain"
-              />
-              <p className="text-gray-400 text-sm">
-                We are an accredited<br />Pearson Vue Test Centre
-              </p>
-            </div>
-            
             <div className="space-y-4">
               <img
                 src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=500&h=203"

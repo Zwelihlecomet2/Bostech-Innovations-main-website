@@ -23,21 +23,6 @@ const PivotalPlanPage = () => {
             <p className="text-base md:text-lg text-gray-700 mb-6 max-w-2xl">
               We prepare, submit and manage your WSP/ATR and Pivotal Plans — ensuring compliance, maximising funding opportunities and simplifying reporting to the SETA.
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="#enquire"
-                className="inline-block bg-[#f79630] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e6861c] transition"
-              >
-                ENQUIRE NOW
-              </a>
-              <a
-                href="#book"
-                className="inline-block border border-gray-300 text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-100 transition"
-              >
-                BOOK A MEETING
-              </a>
-            </div>
           </div>
         </div>
       </section>
@@ -64,10 +49,10 @@ const PivotalPlanPage = () => {
               </p>
 
               <a
-                href="#book"
-                className="inline-block bg-[#f79630] text-white px-6 py-3 rounded shadow font-semibold"
+                href="#enquire"
+                className="inline-block border border-gray-300 text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-100 transition"
               >
-                BOOK A MEETING
+                Enquire
               </a>
             </div>
 
@@ -138,7 +123,7 @@ const PivotalPlanPage = () => {
                 <li>Assist with Bursaries — end to end solution</li>
                 <li>Assessment and recruitment of learners where necessary for interventions</li>
                 <li>Register projects with your relevant SETA, where applicable</li>
-                <li>Facilitate training and project management end-to-end for 12–18 months</li>
+                <li>Facilitate training and project management end-to-end for 12 - 18 months</li>
               </ul>
             </div>
           </div>

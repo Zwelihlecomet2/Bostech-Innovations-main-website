@@ -79,9 +79,9 @@ const BBBEEConsultingPage = () => {
                 </p>
               </div>
               <div className="pt-4">
-                <button className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
+                <a href='#bbbee-booking' className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
                   BOOK A MEETING
-                </button>
+                </a>
               </div>
             </div>
 
@@ -151,7 +151,7 @@ const BBBEEConsultingPage = () => {
       </section>
 
       {/* Enquire Now Section */}
-      <section className="py-20 bg-white">
+      <section id='bbbee-booking' className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Enquire Now</h2>
           <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">

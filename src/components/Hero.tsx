@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, GraduationCap, BookOpen, Target } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -9,23 +10,16 @@ const Hero = () => {
       title: "Uplifting Disabled Women in IT",
       subtitle: "Our campaign for uplifting disabled women in IT, not only to enhance B-BBEE scorecard but also to create meaningful investment in SA's Human Capital.",
       buttonText: "Learn More",
-      buttonLink: "#4ir4her",
+      buttonLink: "/4ir4her",
       backgroundImage: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080"
     },
     {
       title: "Unlock Your Future",
       subtitle: "Leading IT Courses and IT Learnerships designed to equip you with certified skills and real-world experience for in-demand jobs.",
       buttonText: "Get Started",
-      buttonLink: "#learnerships",
+      buttonLink: "/learnerships",
       backgroundImage: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080"
     },
-    {
-      title: "MICT SETA Discretionary Grant Window for 2025/26 is now Open",
-      subtitle: "Let us apply for you at Zero Cost! MICT and Dynamic DNA invites constituent and eligible stakeholders to apply for funding.",
-      buttonText: "Learn More",
-      buttonLink: "#grants",
-      backgroundImage: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080"
-    }
   ];
 
   const services = [
@@ -33,19 +27,19 @@ const Hero = () => {
       icon: <GraduationCap className="h-12 w-12 text-[#f79630]" />,
       title: "Learnerships",
       description: "Pursue a career in IT and Business with our leading learnerships, designed to equip you with certified skills and real-world experience for in-demand jobs.",
-      link: "#learnerships"
+      link: "/learnerships"
     },
     {
       icon: <BookOpen className="h-12 w-12 text-[#f79630]" />,
       title: "Courses",
       description: "Advance your skill set in the world of IT with our selection of comprehensive IT Courses and Soft Skill Courses both online and in person.",
-      link: "#courses"
+      link: "/soft-skills"
     },
     {
       icon: <Target className="h-12 w-12 text-[#f79630]" />,
       title: "Corporate Services",
       description: "Corporate services tailored to your specific needs, earning maximum points in skills development, and building your BBBEE status.",
-      link: "#corporate"
+      link: "/bbbee-consulting"
     }
   ];
 
@@ -112,12 +106,12 @@ const Hero = () => {
                 <p className="text-lg md:text-xl mb-6 leading-relaxed opacity-90 animate-fade-in-up animation-delay-200">
                   {slide.subtitle}
                 </p>
-                <a
-                  href={slide.buttonLink}
+                <NavLink
+                  to={slide.buttonLink}
                   className="inline-block bg-[#f79630] text-white px-6 py-3 rounded-lg font-semibold text-base hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 animate-fade-in-up animation-delay-400 shadow-lg"
                 >
                   {slide.buttonText}
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -170,15 +164,15 @@ const Hero = () => {
                   <p className="text-gray-600 mb-6 leading-relaxed">
                     {service.description}
                   </p>
-                  <a
-                    href={service.link}
+                  <NavLink
+                    to={service.link}
                     className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-200 group"
                   >
                     View
                     <svg className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             ))}

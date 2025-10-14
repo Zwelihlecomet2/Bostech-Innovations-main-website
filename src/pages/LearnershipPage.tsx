@@ -45,7 +45,7 @@ const LearnershipFAQSection = () => {
       question: "How do I apply for a learnership programme?",
       answer: {
         type: "text",
-        content: "You can apply by contacting us directly through our website, calling +27 (0) 11 759 5940, or emailing enquiries@dynamicdna.co.za. Our team will guide you through the application process, help you choose the right programme for your career goals, and provide information about upcoming intake dates and requirements."
+        content: "You can apply by contacting us directly through our website, calling +27 (0) 15 001 2309, or emailing info@bostechtraining.co.za. Our team will guide you through the application process, help you choose the right programme for your career goals, and provide information about upcoming intake dates and requirements."
       }
     }
   ];

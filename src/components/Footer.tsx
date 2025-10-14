@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="space-y-6">
             <h4 className="text-xl font-bold text-[#f79630]">About Us</h4>
             <p className="text-gray-300 leading-relaxed">
-              Dynamic DNA is an ICT training Academy accredited with the MICT SETA, providing Scarce Skills IT training through blended learning (theory and practical) to develop locally-based skilled technology professionals with a specialized focus on the 4IR specialities.
+              Bostech Innovations is an ICT training Academy accredited with the MICT SETA, providing Scarce Skills IT training through blended learning (theory and practical) to develop locally-based skilled technology professionals with a specialized focus on the 4IR specialities.
             </p>
             <Link to="/about"
               className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
@@ -36,7 +36,7 @@ const Footer = () => {
                 className="mx-auto h-16 object-contain"
               />
               <p className="text-gray-400 text-sm">
-                A Dynamic Technologies company.<br />
+                Bostech Innovations company.<br />
                 Diversity by Inclusion
               </p>
             </div>
@@ -49,8 +49,8 @@ const Footer = () => {
                 <Phone className="h-5 w-5 text-[#f79630] mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold">Phone:</p>
-                  <a href="tel:+27117595940" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
-                    +27 (0) 11 759 5940
+                  <a href="tel:+27150012309" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
+                    +27 (0) 15 001 2309
                   </a>
                 </div>
               </div>
@@ -59,8 +59,8 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-[#f79630] mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold">Email:</p>
-                  <a href="mailto:enquiries@dynamicdna.co.za" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
-                    enquiries@dynamicdna.co.za
+                  <a href="mailto:info@bostechtraining.co.za" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
+                    info@bostechtraining.co.za
                   </a>
                 </div>
               </div>
@@ -68,16 +68,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-[#f79630] mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold">Randburg Address:</p>
-                  <p className="text-gray-300">271 Surrey Avenue, Ferndale, Randburg, Johannesburg, 2194</p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-[#f79630] mt-1 flex-shrink-0" />
-                <div>
-                  <p className="font-semibold">Rustenburg Address:</p>
-                  <p className="text-gray-300">98 Thabo Mbeki Drive, Rustenburg</p>
+                  <p className="font-semibold">Polokwane Address:</p>
+                  <p className="text-gray-300">Office LU29, IT Park, 11 Pierre Street Bendor, Polokwane, 0699</p>
                 </div>
               </div>
             </div>
@@ -103,7 +95,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © Copyright 2024 Dynamic DNA. | All Rights Reserved. 
+            © Copyright 2025 Bostech Innovations. | All Rights Reserved. 
             <a href="#privacy" className="text-gray-400 hover:text-[#f79630] transition-colors duration-200 ml-2">
               Privacy Policy
             </a>

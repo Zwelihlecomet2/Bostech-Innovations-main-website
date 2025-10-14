@@ -112,7 +112,7 @@ const AboutPage = () => {
               About Us
             </h1>
             <p className="text-xl md:text-2xl leading-relaxed opacity-90 animate-fade-in-up animation-delay-200">
-              Dynamic DNA is a leading training and skills development company that aims to empower Africa's Information Communication Technology industry.
+              Bostech Innovations is a leading training and skills development company that aims to empower Africa's Information Communication Technology industry.
             </p>
           </div>
         </div>

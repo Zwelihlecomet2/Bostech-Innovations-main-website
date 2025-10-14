@@ -15,6 +15,7 @@ import PivotalPlanPage from './pages/PivotalPlan';
 import FourIR from './pages/FourIR'
 import ContactUs from './pages/ContactPage'
 import NotFoundPage from './pages/NotFound'
+import ContactPage from "./pages/ContactPage"
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         <Route path="/seta-facilitation" element={<SETAFacilitationPage />} />
         <Route path="/pivotal-plan" element={<PivotalPlanPage />} />
         <Route path="/4ir4her" element={<FourIR />} />
-        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/contact-us" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />

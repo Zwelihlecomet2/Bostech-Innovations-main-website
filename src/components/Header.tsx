@@ -39,7 +39,7 @@ const Header = () => {
       ]
     },
     { name: '4IR4HER', href: '/4ir4her' },
-    { name: 'CONTACT US', href: '/contact-us' }
+    // { name: 'CONTACT US', href: '/contact-us' }
   ];
 
   return (

@@ -155,7 +155,7 @@ const ITCoursesPage = () => {
                 </p>
                 
                 <p>
-                  At Dynamic DNA, we understand the power of IT courses in shaping careers 
+                  At Bostech Innovations, we understand the power of IT courses in shaping careers 
                   and helping individuals stay competitive. With our comprehensive range of 
                   courses, taught by industry experts, we strive to empower learners with the 
                   knowledge and practical skills necessary to navigate the digital landscape 
@@ -641,7 +641,7 @@ const FAQSection = () => {
       question: "How can I enroll in an IT course?",
       answer: {
         type: "text",
-        content: "You can enroll by contacting us directly through our website contact form, calling us at +27 (0) 11 759 5940, or emailing enquiries@dynamicdna.co.za. Our team will guide you through the enrollment process, help you choose the right course for your career goals, and provide information about schedules and pricing."
+        content: "You can enroll by contacting us directly through our website contact form, calling us at +27 (0) 15 001 2309, or emailing info@bostechtraining.co.za. Our team will guide you through the enrollment process, help you choose the right course for your career goals, and provide information about schedules and pricing."
       }
     }
   ];
@@ -740,7 +740,7 @@ const ITCoursesContactForm = () => {
       formDataToSend.append('email', formData.email);
       formDataToSend.append('contact', formData.contact);
       formDataToSend.append('message', formData.message);
-      formDataToSend.append('_subject', 'New IT Courses Enquiry - Dynamic DNA');
+      formDataToSend.append('_subject', 'IT Courses Enquiry - Bostech Innovations');
       formDataToSend.append('from_name', `${formData.name} ${formData.surname}`);
       formDataToSend.append('reply_to', formData.email);
 
@@ -767,7 +767,7 @@ const ITCoursesContactForm = () => {
     } catch (error) {
       console.error('Form submission error:', error);
       setSubmitStatus('error');
-      setErrorMessage('Failed to submit enquiry. Please try again or contact us directly at enquiries@dynamicdna.co.za');
+      setErrorMessage('Failed to submit enquiry. Please try again or contact us directly at info@bostechtraining.co.za');
     } finally {
       setIsSubmitting(false);
     }

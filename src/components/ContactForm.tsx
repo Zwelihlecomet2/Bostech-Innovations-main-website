@@ -46,7 +46,7 @@ const ContactForm = () => {
       formDataToSend.append('email', formData.email);
       formDataToSend.append('contact', formData.contact);
       formDataToSend.append('courses', formData.courses);
-      formDataToSend.append('_subject', 'New Soft Skills Enquiry - Dynamic DNA');
+      formDataToSend.append('_subject', 'Soft Skills Enquiry - Bostech Innovations');
       formDataToSend.append('from_name', `${formData.name} ${formData.surname}`);
       formDataToSend.append('reply_to', formData.email);
 
@@ -74,7 +74,7 @@ const ContactForm = () => {
     } catch (error) {
       console.error('Form submission error:', error);
       setSubmitStatus('error');
-      setErrorMessage('Failed to submit enquiry. Please try again or contact us directly at zwelihlecomet2@gmail.com');
+      setErrorMessage('Failed to submit enquiry. Please try again or contact us directly at info@bostechtraining.co.za');
     } finally {
       setIsSubmitting(false);
     }

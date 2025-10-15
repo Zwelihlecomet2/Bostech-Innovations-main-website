@@ -45,7 +45,7 @@ const LearnershipFAQSection = () => {
       question: "How do I apply for a learnership programme?",
       answer: {
         type: "text",
-        content: "You can apply by contacting us directly through our website, calling +27 (0) 11 759 5940, or emailing enquiries@dynamicdna.co.za. Our team will guide you through the application process, help you choose the right programme for your career goals, and provide information about upcoming intake dates and requirements."
+        content: "You can apply by contacting us directly through our website, calling +27 (0) 15 001 2309, or emailing info@bostechtraining.co.za. Our team will guide you through the application process, help you choose the right programme for your career goals, and provide information about upcoming intake dates and requirements."
       }
     }
   ];
@@ -160,7 +160,7 @@ const LearnershipPage = () => {
                 <p>
                   IT learnerships in South Africa and business learnerships in South Africa provide 
                   unmatched opportunities to gain valuable skills and industry-recognised 
-                  qualifications. At Dynamic DNA, our learnership programs are designed to equip 
+                  qualifications. At Bostech Innovations, our learnership programs are designed to equip 
                   both businesses and individuals with the tools needed to excel in the fields of IT 
                   and business.
                 </p>
@@ -551,7 +551,7 @@ const LearnershipPage = () => {
               </p>
               
               <div className="pt-4">
-                <NavLink to='/contact-us' className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
+                <NavLink to='/about' className="bg-[#f79630] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#e6861c] transform hover:scale-105 transition-all duration-200 shadow-lg">
                   Learn More
                 </NavLink>
               </div>
@@ -584,7 +584,7 @@ const LearnershipPage = () => {
 
             {/* Testimonial Quote */}
             <blockquote className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8 italic max-w-3xl mx-auto">
-              "Dynamic DNA has taught me to think "Out-Of-The-Box". I am now able to turn an idea into a viable solution for any specific industry or society and secondly I can maximise my full potential while allowing myself to continue to learn and develop."
+              "Bostech Innovations has taught me to think "Out-Of-The-Box". I am now able to turn an idea into a viable solution for any specific industry or society and secondly I can maximise my full potential while allowing myself to continue to learn and develop."
             </blockquote>
 
             {/* Student Name */}

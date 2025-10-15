@@ -138,7 +138,7 @@ const SoftSkillsPage = () => {
 
               {/* Enquire Button */}
               <div className="pt-6">
-                <a href='/contact-us' className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg">
+                <a href='#contact-us-soft-skills' className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg">
                   Enquire
                 </a>
               </div>
@@ -197,7 +197,7 @@ const SoftSkillsPage = () => {
                 </p>
                 
                 <p className="text-white/90 leading-relaxed">
-                  Dynamic DNA can schedule closed onsite (at client premises), virtual, and in-person classes at our Randburg centre which will require a minimum number of students, or students can join our existing scheduled short courses, should you have the requirement to train only one or two students at a time. Our virtual delivered training is presented through Microsoft Teams as the Virtual Platform.
+                  Bostech Innovations can schedule closed onsite (at client premises), virtual, and in-person classes at our Polokwane centre which will require a minimum number of students, or students can join our existing scheduled short courses, should you have the requirement to train only one or two students at a time. Our virtual delivered training is presented through Microsoft Teams as the Virtual Platform.
                 </p>
               </div>
             </div>
@@ -209,7 +209,7 @@ const SoftSkillsPage = () => {
               </h2>
               
               <p className="text-white/90 leading-relaxed">
-                The below proposed date require a minimum of 6 delegates to be confirmed, Dynamic DNA may only move the training date once in a case we could not meet the required number of delegates to run the course. All communication regarding the rescheduling of classes will be communicated at least 8 working days before the class start date.
+                The below proposed date require a minimum of 6 delegates to be confirmed, Bostech Innovations may only move the training date once in a case we could not meet the required number of delegates to run the course. All communication regarding the rescheduling of classes will be communicated at least 8 working days before the class start date.
               </p>
             </div>
           </div>

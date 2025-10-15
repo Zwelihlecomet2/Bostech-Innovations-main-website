@@ -14,13 +14,13 @@ const SkillsDevelopmentPage = () => {
           }}
         />
         {/* Overlay */}
-        <div className="absolute inset-0 bg-white/70 md:bg-white/60" />
+        <div className="absolute inset-0 bg-white/70 md:bg-white/30" />
         {/* Content */}
         <div className="relative z-10 text-left px-4 w-full max-w-7xl mx-auto">
           <h1 className="text-3xl md:text-5xl font-bold text-white drop-shadow-lg mb-4 pt-8 md:pt-0">
             Skills Development
           </h1>
-          <p className="text-lg md:text-xl font-medium text-[#f79630] drop-shadow-lg max-w-2xl">
+          <p className="text-lg md:text-xl font-medium text-white drop-shadow-lg max-w-2xl">
             Skills development can enhance your employees value and in turn contribute to the success of your business.
           </p>
         </div>
@@ -44,7 +44,7 @@ const SkillsDevelopmentPage = () => {
               Enhance your workforce's Information, Communication and Technology knowledge and improve skills through corporate short courses offered through an easy to use platform.
             </p>
             <p className="text-[#2d2e83] text-base md:text-lg mb-2">
-              At Dynamic DNA we offer a wide variety of Skills Development Solutions and help meet your Skills Development Targets.
+              At Bostech Innovations we offer a wide variety of Skills Development Solutions and help meet your Skills Development Targets.
             </p>
             <ul className="list-disc pl-6 text-[#2d2e83] text-base md:text-lg mb-4">
               <li>Skills Development Facilitation</li>
@@ -100,11 +100,11 @@ const SkillsDevelopmentPage = () => {
       </section>
 
             {/* Enquire Now Section */}
-      <section id='bbbee-booking' className="py-20 bg-white">
+      <section id='skills-development-enquire' className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Enquire Now</h2>
           <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-            Get in touch with us today to chat about how we can assist your business. Call us at <a href="tel:0117595940" className="text-[#2d2e83] font-semibold hover:underline">011 759 5940</a> or submit your info in the enquiry form below.
+            Get in touch with us today to chat about how we can assist your business. Call us at <a href="tel:+27 15 001 2309" className="text-[#2d2e83] font-semibold hover:underline">+27 15 001 2309</a> or submit your info in the enquiry form below.
           </p>
 
           {/* --- Web3Forms-powered form --- */}
@@ -150,7 +150,7 @@ const BBBEEEnquiryForm = () => {
       formData.append('Company Name', form.company);
       formData.append('Position at Company', form.position);
       formData.append('Message', form.message);
-      formData.append('_subject', 'New BBBEE Consulting Enquiry');
+      formData.append('_subject', 'Skills Development Enquire - Bostech Innovations');
       formData.append('from_name', `${form.firstName} ${form.surname}`);
       formData.append('reply_to', form.email);
 
@@ -177,7 +177,7 @@ const BBBEEEnquiryForm = () => {
       }
     } catch (err: any) {
       setStatus('error');
-      setError('Submission failed. Please try again or contact us directly.');
+      setError('Submission failed. Please try again or contact us directly at info@bostechtraining.co.za');
     } finally {
       setIsSubmitting(false);
     }

@@ -17,21 +17,21 @@ const FourIR = () => {
         <div className="absolute inset-0 bg-[#2d2e83]/50" />
         {/* Content */}
         <div className="relative z-10 px-8 md:px-20 lg:px-32 w-full flex flex-col items-start justify-center h-full">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-2">4IR4HER</h1>
-          <p className="text-lg md:text-2xl text-[#2d2e83] bg-white/30 font-medium" style={{marginTop: '-0.5rem'}}>
-            Fourth Industrial Revolution For Her
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-2">4IR4Youth</h1>
+          <p className="text-lg md:text-2xl text-[#2d2e83] bg-white/40 font-medium" style={{marginTop: '-0.3rem'}}>
+            Fourth Industrial Revolution For the Youth
           </p>
         </div>
       </section>
 
-      {/* No Women Left Behind Section */}
+      {/* No youth Left Behind Section */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           {/* Text */}
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-[#2d2e83] mb-3">No Women Left Behind!</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#2d2e83] mb-3">No Youth Left Behind!</h2>
             <p className="text-gray-700 text-base md:text-lg mb-6">
-              4IR4HER is a movement! A movement with the purpose to empower WOMEN to enter the world of technology. The ICT industry in SA has a shortage of skills, which is a great opportunity to include more females into the trade, through a movement like 4IR4HER. Dynamic DNA’s 4IR4HER initiative aims to train and equip 10 000 females with ICT skills which will lead to job creation and employment opportunities within the next 5 years. We strive to create technological and social impact through various digitalization activities that will empower females and create a new digital eco-system, while promoting Tech-preneurship. Dynamic DNA fully advocates and walks the journey with women in our accelerator programmes to ensure they are supported, trained, and fast-tracked into 4IR related job roles and businesses.
+              4IR4Youth is a movement! A movement with the purpose to empower YOUTH to enter the world of technology. The ICT industry in SA has a shortage of skills, which is a great opportunity to include more youth into the trade, through a movement like 4IR4Youth. Bostech Innovation's 4IR4Youth initiative aims to train and equip 10 000 South African Youth with ICT skills which will lead to job creation and employment opportunities within the next 5 years. We strive to create technological and social impact through various digitalization activities that will empower the youth and create a new digital eco-system, while promoting Tech-preneurship. Bostech Innovations fully advocates and walks the journey with the youth in our accelerator programmes to ensure they are supported, trained, and fast-tracked into 4IR related job roles and businesses.
             </p>
             <a href='#get-involved' className="bg-[#f79630] text-white font-bold px-8 py-3 rounded transition-colors hover:bg-[#e6861c] focus:outline-none focus:ring-2 focus:ring-[#f79630]">
               GET INVOLVED
@@ -54,7 +54,7 @@ const FourIR = () => {
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2d2e83] mb-4">Packages</h2>
           <p className="text-center text-gray-700 mb-10 max-w-4xl mx-auto text-sm md:text-base">
-            4ir4her accelerator packages include both SAQA credit bearing qualification USD’s, along with internationally recognised certification. We build and customize programmes according to your specifications and budget! SAQA USD path to be determined based on customization of required initiative.
+            4ir4youth accelerator packages include both SAQA credit bearing qualification USD's, along with internationally recognised certification. We build and customize programmes according to your specifications and budget! SAQA USD path to be determined based on customization of required initiative.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
             {/* Security */}
@@ -162,7 +162,7 @@ const FourIR = () => {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-[#2d2e83] mb-3">New Recruits and Workplace Sponsorship</h2>
             <p className="text-gray-700 text-base md:text-lg">
-              Dynamic DNA welcome host companies the benefit to offer our female learners an opportunity to explore and apply their theoretical knowledge in your workplace, thus adding benefit to your workforce with extra sets of hands, as well as the opportunity to be groomed into your culture and ethos. Collectively we can all create an enjoyable, developmental, and sustainable learning and career journey that determines lucrative and sustainable job opportunities for our talented and determined women of SA!
+              Bostech Innovations welcome host companies the benefit to offer our youth learners an opportunity to explore and apply their theoretical knowledge in your workplace, thus adding benefit to your workforce with extra sets of hands, as well as the opportunity to be groomed into your culture and ethos. Collectively we can all create an enjoyable, developmental, and sustainable learning and career journey that determines lucrative and sustainable job opportunities for our talented and determined youth of SA!
             </p>
           </div>
         </div>
@@ -172,7 +172,7 @@ const FourIR = () => {
         <section id='get-involved' className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Get Involved</h2>
-          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">For more information, contact Vinolia Dlamini or fill out our enquiry form below:</p>
+          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">For more information, contact Lucky Sello Matsobane or fill out our form below to get involved:</p>
 
           {/* --- Web3Forms-powered form --- */}
           <BBBEEEnquiryForm />
@@ -218,7 +218,7 @@ const BBBEEEnquiryForm = () => {
       formData.append('Company Name', form.company);
       formData.append('Position at Company', form.position);
       formData.append('Message', form.message);
-      formData.append('_subject', 'Getting Involved');
+      formData.append('_subject', '4IR4Youth Getting Involved - Bostech Innovations');
       formData.append('from_name', `${form.firstName} ${form.surname}`);
       formData.append('reply_to', form.email);
 
@@ -245,7 +245,7 @@ const BBBEEEnquiryForm = () => {
       }
     } catch (err: any) {
       setStatus('error');
-      setError('Submission failed. Please try again or contact us directly.');
+      setError('Submission failed. Please try again or contact us directly at info@bostechtraining.co.za');
     } finally {
       setIsSubmitting(false);
     }

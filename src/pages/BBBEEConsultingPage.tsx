@@ -153,9 +153,9 @@ const BBBEEConsultingPage = () => {
       {/* Enquire Now Section */}
       <section id='bbbee-booking' className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Enquire Now</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Book a Meeting</h2>
           <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-            Get in touch with us today to chat about how we can assist your business. Call us at <a href="tel:0117595940" className="text-[#2d2e83] font-semibold hover:underline">011 759 5940</a> or submit your info in the enquiry form below.
+            Get in touch with us today to chat about how we can assist your business. Call us at <a href="tel:+27 15 001 2309" className="text-[#2d2e83] font-semibold hover:underline">+27 15 001 2309</a> or submit your info in the enquiry form below.
           </p>
 
           {/* --- Web3Forms-powered form --- */}
@@ -201,7 +201,7 @@ const BBBEEEnquiryForm = () => {
       formData.append('Company Name', form.company);
       formData.append('Position at Company', form.position);
       formData.append('Message', form.message);
-      formData.append('_subject', 'New BBBEE Consulting Enquiry');
+      formData.append('_subject', 'BBBEE Consulting Booking - Bostech Innovations');
       formData.append('from_name', `${form.firstName} ${form.surname}`);
       formData.append('reply_to', form.email);
 

@@ -31,7 +31,7 @@ function App() {
         <Route path="/learner-management" element={<LearnerManagementPage />} />
         <Route path="/seta-facilitation" element={<SETAFacilitationPage />} />
         <Route path="/pivotal-plan" element={<PivotalPlanPage />} />
-        <Route path="/4ir4her" element={<FourIR />} />
+        <Route path="/4ir4youth" element={<FourIR />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

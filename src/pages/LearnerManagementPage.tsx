@@ -38,7 +38,7 @@ const LearnerManagementPage = () => {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-[#2d2e83] mb-3">Empowering Your Workforce: Investing in Accredited Learnership Programs</h2>
             <p className="text-gray-700 text-base md:text-lg mb-4">
-              At Dynamic DNA, we understand the importance of ongoing skills development in the workplace. That’s why we offer customised, accredited learnership programs to help your employees gain the knowledge and experience they need to excel in their roles or fill open positions. Our programs align with the Skills Development Act, ensuring compliance and relevance for your business.
+              At Bostech Innovations, we understand the importance of ongoing skills development in the workplace. That's why we offer customised, accredited learnership programs to help your employees gain the knowledge and experience they need to excel in their roles or fill open positions. Our programs align with the Skills Development Act, ensuring compliance and relevance for your business.
             </p>
             <p className="text-gray-700 text-base md:text-lg">
               Our IT and Business learnership programs are designed to be flexible, allowing participants to learn on the job and continue to work while they learn. We offer support and guidance throughout the program, ensuring that participants gain valuable skills that they can apply to their everyday work. Our goal is to help your business build a skilled and motivated workforce, while improving productivity and efficiency.
@@ -62,13 +62,13 @@ const LearnerManagementPage = () => {
               Regardless of economic circumstance, we inspire and encourage learners to achieve their dreams by providing them with a platform for development of potential.
             </p>
             <p className="text-gray-700 text-base md:text-lg mb-3">
-              Level 4 and 5 requirements AKM must be IKM also not sure if we must include those % requirements as it’s very hard finding those people and based on background. We look at mostly drive, logical, analytical and problem solving skills
+              Level 4 and 5 requirements AKM must be IKM also not sure if we must include those % requirements as it's very hard finding those people and based on background. We look at mostly drive, logical, analytical and problem solving skills
             </p>
             <p className="text-gray-700 text-base md:text-lg mb-3">
-              At the end of the Learnership, the Dynamic DNA strives to assist companies with the absorption of their learners in sustainable and suitable positions. It is paramount to this service for our learners to achieve full-time employment.
+              At the end of the Learnership, the Bostech Innovation strives to assist companies with the absorption of their learners in sustainable and suitable positions. It is paramount to this service for our learners to achieve full-time employment.
             </p>
             <p className="text-gray-700 text-base md:text-lg mb-6">
-              Together we empower young dynamic people to become the technology leaders of tomorrow.
+              Together we empower young innovators to become the technology leaders of tomorrow.
             </p>
             <a href='#learner-management-booking' className="bg-[#f79630] text-white font-bold px-8 py-3 rounded transition-colors hover:bg-[#e6861c] focus:outline-none focus:ring-2 focus:ring-[#f79630]">
               BOOK A MEETING
@@ -86,11 +86,11 @@ const LearnerManagementPage = () => {
       </section>
 
       {/* Enquire Now Section */}
-      <section id='bbbee-booking' className="py-20 bg-white">
+      <section id='learner-management-booking' className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Enquire Now</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f79630] mb-4">Book a Meeting</h2>
           <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-            Get in touch with us today to chat about how we can assist your business. Call us at <a href="tel:0117595940" className="text-[#2d2e83] font-semibold hover:underline">011 759 5940</a> or submit your info in the enquiry form below.
+            Get in touch with us today to chat about how we can assist your business. Call us at <a href="tel:+27 15 001 2309" className="text-[#2d2e83] font-semibold hover:underline">+27 15 001 2309</a> or submit your info in the enquiry form below.
           </p>
 
           {/* --- Web3Forms-powered form --- */}
@@ -136,7 +136,7 @@ const BBBEEEnquiryForm = () => {
       formData.append('Company Name', form.company);
       formData.append('Position at Company', form.position);
       formData.append('Message', form.message);
-      formData.append('_subject', 'New BBBEE Consulting Enquiry');
+      formData.append('_subject', 'Learner management Booking - Bostech Innovations');
       formData.append('from_name', `${form.firstName} ${form.surname}`);
       formData.append('reply_to', form.email);
 
@@ -163,7 +163,7 @@ const BBBEEEnquiryForm = () => {
       }
     } catch (err: any) {
       setStatus('error');
-      setError('Submission failed. Please try again or contact us directly.');
+      setError('Submission failed. Please try again or contact us directly at info@bostechtraining.co.za');
     } finally {
       setIsSubmitting(false);
     }

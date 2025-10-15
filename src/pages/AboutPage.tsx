@@ -112,7 +112,7 @@ const AboutPage = () => {
               About Us
             </h1>
             <p className="text-xl md:text-2xl leading-relaxed opacity-90 animate-fade-in-up animation-delay-200">
-              Dynamic DNA is a leading training and skills development company that aims to empower Africa's Information Communication Technology industry.
+              Bostech Innovations is a leading training and skills development company that aims to empower Africa's Information Communication Technology industry.
             </p>
           </div>
         </div>
@@ -159,7 +159,7 @@ const AboutPage = () => {
             {/* Left Column */}
             <div className="space-y-6">
               <p className="text-gray-700 leading-relaxed text-lg">
-                At Dynamic DNA, we are passionate about empowering individuals with the skills 
+                At Bostech Innovations, we are passionate about empowering individuals with the skills 
                 needed to create a brighter future for generations to come. In today's fast-changing 
                 world, education and skills development are the keys to unlocking potential and 
                 driving progress. Our mission is to equip people with the knowledge and tools they 
@@ -176,7 +176,7 @@ const AboutPage = () => {
               
               <p className="text-gray-700 leading-relaxed text-lg">
                 As the world embraces the Fourth Industrial Revolution (4IR), the demand for digital 
-                expertise and innovation is greater than ever. Dynamic DNA is at the forefront of this 
+                expertise and innovation is greater than ever. Bostech Innovations is at the forefront of this 
                 transformation, preparing individuals to seize opportunities in fields such as data 
                 science, artificial intelligence, cybersecurity, and software development. By doing so, 
                 we enable businesses and communities to adapt and flourish in this new era.
@@ -189,7 +189,7 @@ const AboutPage = () => {
                 Our commitment goes beyond technical training; we are dedicated to bridging the 
                 skills gap and addressing inequalities within the ICT sector. South Africa's economic 
                 growth relies on creating a workforce that is not only skilled but also diverse and 
-                inclusive. At Dynamic DNA, we work to close both the skills and gender divide, 
+                inclusive. At Bostech Innovations, we work to close both the skills and gender divide, 
                 ensuring equal opportunities for all.
               </p>
               
@@ -202,7 +202,7 @@ const AboutPage = () => {
               </p>
               
               <p className="text-gray-700 leading-relaxed text-lg">
-                Through our programs, partnerships, and unwavering dedication, Dynamic DNA is 
+                Through our programs, partnerships, and unwavering dedication, Bostech Innovations is 
                 shaping a new narrative for South Africa. We are not just teaching skills; we are 
                 transforming lives, igniting potential, and helping to build a legacy of growth and 
                 resilience. Together, we are paving the way for a future where everyone can thrive in 
@@ -380,7 +380,7 @@ const AboutPage = () => {
               </h2>
               
               <p className="text-blue-600 font-semibold text-lg leading-relaxed">
-                Our partnership initiatives are set up to encourage mutually beneficial relationships between Dynamic DNA and external organisations.
+                Our partnership initiatives are set up to encourage mutually beneficial relationships between Bostech Innovations and external organisations.
               </p>
               
               <p className="text-gray-700 leading-relaxed">
@@ -419,7 +419,7 @@ const AboutPage = () => {
               <p className="text-gray-700 leading-relaxed">
                 Of course, we could not do this alone, with the assistance of over 45 prominent clients, all 
                 driven to enrich the lives of each person that learns and grows through our help, the picture is 
-                much bigger with Dynamic DNA as our learner's success is just one small part of our joint 
+                much bigger with Bostech Innovations as our learner's success is just one small part of our joint 
                 success.
               </p>
               
@@ -431,7 +431,7 @@ const AboutPage = () => {
               </p>
               
               <p className="text-gray-700 leading-relaxed">
-                Dynamic DNA is a part of the Dynamic Technologies group of companies that has 1 200 staff 
+                Bostech Innovations is a part of the Dynamic Technologies group of companies that has 1 200 staff 
                 and 12 group companies providing software and digital solutions globally across multiple 
                 sectors in the UK, Europe, the U.S.A, South Africa and sub-Saharan Africa.
               </p>
@@ -463,77 +463,6 @@ const AboutPage = () => {
                   <div className="text-xs text-gray-200">Young Minds</div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Dynamic Technologies Group Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            {/* Logos Section */}
-            <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24 mb-12">
-              {/* Dynamic Technologies Logo */}
-              <div className="flex flex-col items-center">
-                <div className="w-80 h-32 flex items-center justify-center mb-4">
-                  {/* Dynamic Technologies Logo */}
-                  <div className="flex items-center space-x-4">
-                    <div className="w-20 h-20 bg-blue-900 rounded-full flex items-center justify-center">
-                      <span className="text-[#f79630] font-bold text-lg">dth</span>
-                    </div>
-                    <div className="flex flex-col">
-                      <span className="text-2xl font-light text-gray-800">dynamic</span>
-                      <span className="text-2xl font-light text-gray-800">technologies</span>
-                      <span className="text-sm text-gray-500 italic">powered by people</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Dynamic DNA Logo */}
-              <div className="flex flex-col items-center">
-                <div className="w-80 h-32 flex items-center justify-center mb-4">
-                  {/* Dynamic DNA Logo */}
-                  <div className="flex items-center space-x-4">
-                    <div className="relative">
-                      {/* DNA Helix Icon */}
-                      <svg className="w-16 h-16 text-blue-600" viewBox="0 0 64 64" fill="none">
-                        <path d="M20 8C20 8 28 16 36 8C44 16 52 8 52 8" stroke="currentColor" strokeWidth="3" fill="none"/>
-                        <path d="M20 24C20 24 28 32 36 24C44 32 52 24 52 24" stroke="currentColor" strokeWidth="3" fill="none"/>
-                        <path d="M20 40C20 40 28 48 36 40C44 48 52 40 52 40" stroke="currentColor" strokeWidth="3" fill="none"/>
-                        <path d="M20 56C20 56 28 64 36 56C44 64 52 56 52 56" stroke="currentColor" strokeWidth="3" fill="none"/>
-                        <circle cx="20" cy="8" r="2" fill="#f79630"/>
-                        <circle cx="36" cy="8" r="2" fill="#f79630"/>
-                        <circle cx="52" cy="8" r="2" fill="#f79630"/>
-                        <circle cx="20" cy="24" r="2" fill="#f79630"/>
-                        <circle cx="36" cy="24" r="2" fill="#f79630"/>
-                        <circle cx="52" cy="24" r="2" fill="#f79630"/>
-                        <circle cx="20" cy="40" r="2" fill="#f79630"/>
-                        <circle cx="36" cy="40" r="2" fill="#f79630"/>
-                        <circle cx="52" cy="40" r="2" fill="#f79630"/>
-                        <circle cx="20" cy="56" r="2" fill="#f79630"/>
-                        <circle cx="36" cy="56" r="2" fill="#f79630"/>
-                        <circle cx="52" cy="56" r="2" fill="#f79630"/>
-                      </svg>
-                    </div>
-                    <div className="flex flex-col">
-                      <div className="flex items-baseline space-x-1">
-                        <span className="text-2xl font-bold text-blue-600">DYNAMIC</span>
-                        <span className="text-2xl font-bold text-[#f79630]">DNA</span>
-                      </div>
-                      <span className="text-sm text-gray-600 italic">We develop and empower</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Description Text */}
-            <div className="text-center max-w-5xl mx-auto">
-              <p className="text-lg leading-relaxed text-[#f79630] font-medium">
-                DynamicDNA is a Dynamic Technologies group company. With 1 500+ staff and 8 group companies operating across multiple sectors in the UK, European, US, UAE, East African and South African markets. Dynamic Technologies provides a range of software and technology solutions, SQA and testing, cloud solutions, CRM, legal enterprise business solutions, skills development, and related core competencies. Our group companies comprise BPC Resourcing, CloudSmiths, DVT, Emerald Consulting, Inspired Testing, Sincera and xSMTHS.
-              </p>
             </div>
           </div>
         </div>
@@ -628,8 +557,8 @@ const AboutPage = () => {
                     </div>
                     <div className="flex flex-col">
                       <div className="flex items-baseline space-x-1">
-                        <span className="text-2xl font-bold text-blue-600">DYNAMIC</span>
-                        <span className="text-2xl font-bold text-[#f79630]">DNA</span>
+                        <span className="text-2xl font-bold text-blue-600">Bostech</span>
+                        <span className="text-2xl font-bold text-[#f79630]">Innovations</span>
                       </div>
                       <span className="text-sm text-gray-600 italic">We develop and empower</span>
                     </div>
@@ -641,13 +570,12 @@ const AboutPage = () => {
             {/* Description Text */}
             <div className="text-center max-w-5xl mx-auto">
               <p className="text-lg leading-relaxed text-[#f79630] font-medium">
-                DynamicDNA is a Dynamic Technologies group company. With 1 500+ staff and 8 group companies operating across multiple sectors in the UK, European, US, UAE, East African and South African markets. Dynamic Technologies provides a range of software and technology solutions, SQA and testing, cloud solutions, CRM, legal enterprise business solutions, skills development, and related core competencies. Our group companies comprise BPC Resourcing, CloudSmiths, DVT, Emerald Consulting, Inspired Testing, Sincera and xSMTHS.
+                Bostech Innovations is a Dynamic Technologies group company. With 1 500+ staff and 8 group companies operating across multiple sectors in the UK, European, US, UAE, East African and South African markets. Dynamic Technologies provides a range of software and technology solutions, SQA and testing, cloud solutions, CRM, legal enterprise business solutions, skills development, and related core competencies. Our group companies comprise BPC Resourcing, CloudSmiths, DVT, Emerald Consulting, Inspired Testing, Sincera and xSMTHS.
               </p>
             </div>
           </div>
         </div>
       </section>
-
     </div>
   );
 };
@@ -805,17 +733,17 @@ const TestimonialSlider = () => {
       position: "Systems Development Graduate"
     },
     {
-      quote: "Dynamic DNA has transformed my career completely. The practical training and mentorship I received prepared me for real-world challenges in the IT industry. I'm now working as a software developer and couldn't be happier.",
+      quote: "Bostech Innovations has transformed my career completely. The practical training and mentorship I received prepared me for real-world challenges in the IT industry. I'm now working as a software developer and couldn't be happier.",
       name: "Thandi Mthembu",
       position: "Software Development Graduate"
     },
     {
-      quote: "The learnership program at Dynamic DNA gave me the skills and confidence I needed to succeed. The instructors are knowledgeable and supportive, and the curriculum is relevant to industry needs.",
+      quote: "The learnership program at Bostech Innovations gave me the skills and confidence I needed to succeed. The instructors are knowledgeable and supportive, and the curriculum is relevant to industry needs.",
       name: "Michael Ndlovu",
       position: "Network Administration Graduate"
     },
     {
-      quote: "What sets Dynamic DNA apart is their commitment to empowering women in technology. As a female graduate, I felt supported throughout my journey and now I'm inspiring other women to join the IT field.",
+      quote: "What sets Bostech Innovations apart is their commitment to empowering women in technology. As a female graduate, I felt supported throughout my journey and now I'm inspiring other women to join the IT field.",
       name: "Nomsa Khumalo",
       position: "Cybersecurity Graduate"
     }

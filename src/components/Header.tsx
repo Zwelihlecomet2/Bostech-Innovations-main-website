@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
-import bostechLogo from "../assets/bostech-logo.jpg"
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,7 +39,7 @@ const Header = () => {
       ]
     },
     { name: '4IR4HER', href: '/4ir4her' },
-    { name: 'CONTACT US', href: '/contact-us'}
+    // { name: 'CONTACT US', href: '/contact-us' }
   ];
 
   return (
@@ -54,7 +52,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link to="/">
               <img 
-                src={bostechLogo}
+                src="https://www.dynamicdna.co.za/wp-content/uploads/elementor/thumbs/Logo-Small-q694gnb2tjabbx4aoipo36qk4afsjk9pelwtz9lz3g.png" 
                 alt="Dynamic DNA Logo" 
                 className="h-12 w-auto"
               />

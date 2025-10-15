@@ -1,6 +1,5 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
-import BBBEEEnquiryForm from '../components/BBBEE';
 
 const PivotalPlanPage = () => {
   return (
@@ -136,11 +135,11 @@ const PivotalPlanPage = () => {
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-2xl md:text-3xl font-semibold text-[#f79630] mb-3">Enquire Now</h2>
           <p className="text-gray-600 mb-8">
-            Get in touch with us today to chat about how we can assist your business. Call us at <a href="tel:+27 15 001 2309" className="font-semibold text-[#2d2e83]">+27 15 001 2309</a> or submit your info in the enquiry form below.
+            Get in touch with us today to chat about how we can assist your business. Call us at <a href="tel:0117595940" className="font-semibold text-[#2d2e83]">011 759 5940</a> or submit your info in the enquiry form below.
           </p>
 
           <div className="w-full mt-6">
-            <BBBEEEnquiryForm />
+            <ContactForm />
           </div>
         </div>
       </section>

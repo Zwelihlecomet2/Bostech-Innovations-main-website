@@ -138,7 +138,7 @@ const SoftSkillsPage = () => {
 
               {/* Enquire Button */}
               <div className="pt-6">
-                <a href='#contact-us-soft-skills' className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg">
+                <a href='/contact-us' className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg">
                   Enquire
                 </a>
               </div>

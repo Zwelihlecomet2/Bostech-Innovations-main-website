@@ -641,7 +641,7 @@ const FAQSection = () => {
       question: "How can I enroll in an IT course?",
       answer: {
         type: "text",
-        content: "You can enroll by contacting us directly through our website contact form, calling us at +27 (0) 15 001 2309, or emailing info@bostechtraining.co.za. Our team will guide you through the enrollment process, help you choose the right course for your career goals, and provide information about schedules and pricing."
+        content: "You can enroll by contacting us directly through our website contact form, calling us at +27 (0) 11 759 5940, or emailing enquiries@dynamicdna.co.za. Our team will guide you through the enrollment process, help you choose the right course for your career goals, and provide information about schedules and pricing."
       }
     }
   ];
@@ -778,7 +778,7 @@ const ITCoursesContactForm = () => {
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
-          IT Courses Enquiry
+          Contact Us
         </h2>
       </div>
 

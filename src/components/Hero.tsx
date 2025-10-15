@@ -10,7 +10,7 @@ const Hero = () => {
       title: "Uplifting Disabled Women in IT",
       subtitle: "Our campaign for uplifting disabled women in IT, not only to enhance B-BBEE scorecard but also to create meaningful investment in SA's Human Capital.",
       buttonText: "Learn More",
-      buttonLink: "/about",
+      buttonLink: "/4ir4her",
       backgroundImage: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080"
     },
     {
